@@ -1,0 +1,12 @@
+import React from "react";
+import Veggie from "../components/Viggie";
+import Popular from "../components/Popular";
+
+export default function Home() {
+  return (
+    <div>
+      <Veggie />
+      <Popular />
+    </div>
+  );
+}
